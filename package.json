@@ -1,0 +1,28 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "\"RESTful todoListApi\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test spacified\\\" && exit 1\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"git+https://github.com/maxgb07/api-softwareland.git\""
+  },
+  "keywords": [
+    "\"RESTful\"",
+    "\"API\"",
+    "\"Tutorial\""
+  ],
+  "author": "\"Maximiliano Gonzalez\"",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  }
+}
